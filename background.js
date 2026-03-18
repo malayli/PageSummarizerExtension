@@ -4,9 +4,16 @@ const STORAGE_KEYS = {
 };
 
 function languageInstruction(lang) {
-  if (lang === "fr") {return "French";}
-  if (lang === "ja") {return "Japanese";}
-  return "English";
+  switch (lang) {
+    case "fr":
+      return "French";
+
+    case "ja":
+      return "Japanese";
+
+    default:
+      return "English";
+  }
 }
 
 async function getSettings() {
