@@ -3,7 +3,7 @@
 
   "name": "Page Summarizer",
   "version": "1.0",
-  "description": "Summarize the current page using ChatGPT (gpt-5.4) or Claude",
+  "description": "Summarize the current page using ChatGPT, Claude or DeepSeek",
 
   "action": {
     "default_popup": "popup.html"

@@ -2,7 +2,7 @@
 
 Chrome extension that reads the current page’s visible text and generates a summary using either:
 
-- OpenAI (ChatGPT) API, or
+- OpenAI (ChatGPT 5.4) API
 - Anthropic (Claude) API
 - DeepSeek API
 
@@ -28,7 +28,7 @@ The extension icon will appear in the toolbar. Click it to see:
 1. Load the extension (see installation above)
 2. Open extension options to set your API key:
    - `chrome://extensions/` → your extension → **Details** → **Extension options**
-3. Select your provider (ChatGPT/OpenAI or Claude/Anthropic)
+3. Select your provider (ChatGPT 5.4/OpenAI, Claude/Anthropic or DeepSeek)
 4. Paste the corresponding API key and click **Save**
 
 ## Files
